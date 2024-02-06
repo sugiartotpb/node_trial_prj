@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dist": "mkdir -p dist && cp -R node_modules src server.js ... dist",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
